@@ -4,7 +4,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-family: "Montserrat", sans-serif;
   font-family: "Quicksand", sans-serif;
-  background-color: #eae8e8;
+  background-color: #d4dbd9;
 }
 
 header {
@@ -24,6 +24,18 @@ footer {
 h1 {
   margin: 0;
   font-size: 36px;
+}
+h2 {
+  margin: 0;
+  font-size: 26px;
+}
+
+a {
+  color: #c9ecee;
+  text-decoration: none;
+}
+a:hover {
+  color: #0b0bc4;
 }
 
 .container {
@@ -49,7 +61,7 @@ h1 {
   transition: background 0.5s ease;
 }
 .recipe-item:hover {
-  background: #57bbc2;
+  background: #c9ecee;
   color: black;
 }
 
